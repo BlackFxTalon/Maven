@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The next generation of care for women and families">
+    <title>Maven project</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="embla.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Maven</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="header-logo navbar-brand d-flex" href="#">
+                    <img loading="lazy" decoding="async" src="img/logo.svg" alt="header-logo" width="160" height="21">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#">Employers</a>
+                        <a class="nav-link" href="#">Health Plans</a>
+                        <a class="nav-link" href="#">Consultants</a>
+                        <a class="nav-link" href="#">Resources</a>
+                    </div>
+                    <form class="d-flex flex-wrap justify-content-start">
+                        <button class="btn btn__request-btn btn--green me-2 btn-separator position-relative" type="button">Demo request</button>
+                        <button class="btn btn__individuals-btn" type="button">Individuals</button>
+                        <button class="btn btn__login-btn btn-sm mt-2 mt-sm-0" type="button">Login</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section class="cta">
+        <div class="container mx-auto px-auto me-lg-0 pe-lg-0">
+            <div class="row">
+                <div class="col cta__wrapper">
+                    <h1 class="cta-title">The next generation of care for women and families</h1>
+                    <div class="cta__learn-more d-flex align-items-stretch">
+                        <p class="mb-0 cta__learn-more--search loupe-icon d-flex align-items-center bg-white me-lg-1 me-0 mb-2 mb-lg-0"><span class="ms-3">I'd like to find out</span></p>
+                        <div class="cta__learn-more--right-part d-flex align-items-center bg-white">
+                            <p class="mb-2 mb-sm-0 grey-text-color">what Maven will bring to my company</p>
+                            <a href="#" class="btn btn--green">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cta__img position-relative d-none d-lg-flex">
+                    <img loading="lazy" decoding="async" src="img/cta-img.jpg" alt="cta image" width="633" height="576">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="virt-care">
+        <div class="container">
+            <h2 class="text-center">Maven’s <span class="lightgreen-bg-color">pioneering</span> virtual care model is built around women and families, delivering <span class="lightgreen-bg-color">better</span> outcomes and <span class="lightgreen-bg-color">lower</span> costs for everyone.</h2>
+            <p class="grey-text-color text-center mx-auto virt-care__subtitle pt-3">We’re setting a new standard of care for families across geographies, cultures, and backgrounds.</p>
+            <article class="virt-care__pros">
+                <div class="row">
+                    <div class="col">
+                        <article class="virt-care__pros-article virt-care__pros-article-1 d-flex flex-column align-items-center text-center">
+                            <aside class="mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 64 64">
+                                    <defs />
+                                    <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width=".868" d="M41.966 5.109l-4.446 6.327M31.111 8.698L29.864.496M42.067 16.959l7.919-1.292" />
+                                    <path fill="#DCE9E2" d="M63.471 47.007c-3.602-1.24-15.474-4.56-22.948-6.692-2.644-.744-5.554-1.041-8.12-.035-1.414.555-2.632 1.534-3.812 2.506-.981.8-1.766 1.373-2.74 2.18a6.655 6.655 0 01-2.62 1.251 6.535 6.535 0 01-2.884.007c-.977-.226-3.166-1.103-4.162-1.212a1.257 1.257 0 00-.993.215c-.263.233-.294.744.014.912-.825-.352-5.164-1.71-6.026-1.955-2-.56-2.802.06-3.003.679-.139.431 1.457 1.185 1.833 1.41-1.254-.558-4.068-1.376-5.234-1.618-2-.414-3.45.622-2.45 1.239 2.943 1.83 9.395 5.897 12.324 7.753-3.537-.017-6.552.045-9.141.535-1.786.347-2.384 1.106-2.585 1.587a.381.381 0 00.127.433.349.349 0 00.143.062c2.171.385 13.32 2.353 17.032 2.76 3.712.406 5.064.413 7.536-.09 5.026-1.026 10.176-4.648 14.599-8.197 8.438 5.099 14.971 9.082 22.179 13.25.493-7.021.531-9.244.931-16.98z" />
+                                    <path stroke="#70B3A7" stroke-linecap="round" stroke-linejoin="round" stroke-width=".868" d="M25.286 45.901c-2.953 2.71-5.743 4.923-8.701 7.632-.46.421-.957 1.066-.656 1.616.128.199.317.346.536.419.845.324 1.786 0 2.602-.404 2.311-1.128 4.355-2.806 6.712-3.83 2.915-1.266 6.371-1.581 8.616-3.891M15.481 46.471c1.694.776 3.887 1.887 5.581 2.662M8.137 46.677c3.95 2.02 6.368 3.222 10.12 4.803M12.31 53.937a37.212 37.212 0 013.488-.074" />
+                                    <path fill="#70B3A7" d="M16.48 15.068c-4.275-1.148-9.178 1.735-10.428 6.112-1.249 4.377.94 9.131 3.83 12.64 2.888 3.51 7.827 7.734 11.515 10.56 3.425-3.153 5.452-4.663 8.89-8.18 3.255-3.329 6.13-7.337 6.802-12.024.383-2.666 0-5.626-1.79-7.587-2.006-2.205-5.438-2.61-8.137-1.42-2.455 1.086-4.188 3.14-4.75 5.505a9.01 9.01 0 00-2.302-3.557 8.592 8.592 0 00-3.63-2.05z" />
+                                </svg>
+                            </aside>
+                            <header>
+                                <h3 class="primary-text-color">Whole-person care</h3>
+                            </header>
+                            <footer><span class="grey-text-color">A holistic approach that offers comprehensive care for all families.</span></footer>
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="virt-care__pros-article virt-care__pros-article-2 d-flex flex-column align-items-center text-center">
+                            <aside class="mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 64 64">
+                                    <defs />
+                                    <path fill="#DCE9E2" d="M61.685 23.28C58.53 13.067 49.15 6.912 34.86 4.967 22.98 3.347 8.824 7.43 2.514 21.166c-6.45 14.04.19 27.447 12.228 33.11 9.052 4.26 25.435 7.039 36.686.352 13.017-7.751 13.457-22.022 10.257-31.347z" />
+                                    <path fill="#70B3A7" d="M39.888 63.987l-27.797-3.88a1.225 1.225 0 01-.777-.425.983.983 0 01-.216-.792l8.237-47.005c.05-.278.222-.528.477-.694.256-.167.574-.237.887-.195l27.797 3.88c.312.045.591.198.777.426a.983.983 0 01.216.791L41.252 63.09a1.06 1.06 0 01-.475.7 1.311 1.311 0 01-.889.197z" />
+                                    <path fill="#fff" d="M39.478 55.401l6.828-38.928-24.422-3.415-6.828 38.929L39.478 55.4z" />
+                                    <path fill="#00856F" d="M26.471 59.102c.974 0 1.764-.705 1.764-1.575s-.79-1.575-1.764-1.575-1.764.705-1.764 1.575.79 1.575 1.764 1.575z" />
+                                    <path fill="#008071" d="M20.938 37.28a.796.796 0 00-.541.113.67.67 0 00-.191.187.57.57 0 00-.077.491c.024.083.067.16.125.227a.696.696 0 00.215.165.778.778 0 00.27.077 5.67 5.67 0 002.255-.175 5.246 5.246 0 001.947-1.03 4.794 4.794 0 01-.496-1.4c-.392.487-.926.87-1.543 1.107a4.106 4.106 0 01-1.961.239h-.003zm4.152-3.975c.081.37.094.751.038 1.126a4.128 4.128 0 00.339 2.378c.047.107.105.219.163.32.059.102.117.201.178.295.198.297.432.575.698.826.46.43 1.01.776 1.618 1.017a5.613 5.613 0 003.88.083 5.183 5.183 0 001.67-.946 4.78 4.78 0 01-.49-1.4 3.637 3.637 0 01-1.543 1.11 4.089 4.089 0 01-1.964.235 3.917 3.917 0 01-1.816-.706 3.322 3.322 0 01-1.145-1.444 2.884 2.884 0 01-.146-.483 3.042 3.042 0 01-.037-1.126 4.183 4.183 0 00-.503-2.696 7.798 7.798 0 00-.18-.297 4.815 4.815 0 00-1.558-1.464 5.474 5.474 0 00-2.113-.718.778.778 0 00-.528.123.628.628 0 00-.276.42.587.587 0 00.137.472.734.734 0 00.471.247 3.928 3.928 0 011.815.707c.522.378.918.877 1.146 1.441.065.158.117.32.155.485l-.009-.005zm14.348-.456a.775.775 0 00.511-.134.625.625 0 00.265-.412.586.586 0 00-.129-.461.727.727 0 00-.451-.253 5.672 5.672 0 00-2.252.173 5.25 5.25 0 00-1.947 1.027c.237.444.403.916.49 1.402a3.665 3.665 0 011.545-1.104 4.114 4.114 0 011.96-.238h.008zm-5.623 1.564c.084.37.097.751.038 1.126a4.153 4.153 0 00.508 2.698c.053.101.113.2.178.295.388.587.92 1.088 1.556 1.466a5.461 5.461 0 002.114.719.775.775 0 00.515-.13.625.625 0 00.268-.414.585.585 0 00-.13-.464.728.728 0 00-.454-.252 3.945 3.945 0 01-1.818-.709 3.349 3.349 0 01-1.149-1.444 3.507 3.507 0 01-.149-.485 2.984 2.984 0 01-.038-1.126 4.178 4.178 0 00-.339-2.378c-.052-.107-.105-.219-.163-.32a4.803 4.803 0 00-1.74-1.759 5.462 5.462 0 00-2.113-.717 5.663 5.663 0 00-2.252.173 5.24 5.24 0 00-1.945 1.028c.236.444.403.915.496 1.4.392-.488.926-.871 1.544-1.108a4.093 4.093 0 011.963-.235 3.92 3.92 0 011.815.706c.522.378.918.877 1.146 1.442.061.16.111.323.149.488z" />
+                                    <path fill="#00856F" d="M31.015 0H5.46c-.566 0-1.109.2-1.51.558-.4.358-.624.842-.624 1.348v13.676c0 .506.225.99.625 1.348.4.357.943.558 1.51.558h10.274l7.008 5.996-.999-5.996h9.28c.566 0 1.108-.2 1.509-.558.4-.357.625-.842.625-1.348V1.906c0-.251-.056-.5-.163-.731a1.91 1.91 0 00-.465-.62 2.17 2.17 0 00-.696-.412 2.358 2.358 0 00-.82-.143z" />
+                                    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width=".912" d="M11.008 9.117l3.652 3.261 8.46-7.552" />
+                                </svg>
+                            </aside>
+                            <header>
+                                <h3 class="primary-text-color">Exceptional outcomes</h3>
+                            </header>
+                            <footer><span class="grey-text-color">Dedicated Care Advocates and data-driven insights deliver better outcomes.</span></footer>
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="virt-care__pros-article virt-care__pros-article-3 d-flex flex-column align-items-center text-center">
+                            <aside class="mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 64 64">
+                                    <defs />
+                                    <path fill="#DCE9E1" d="M51.975 58.83V0H0v58.83h51.975z" />
+                                    <path stroke="#70B2A6" stroke-miterlimit="10" stroke-width="1.051" d="M46.973 51.115V7.712H5.006v43.403h41.967z" />
+                                    <path stroke="#70B2A6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.051" d="M5.2 25.67h41.256M5.229 38.537h41.255M15.565 7.877v43.076M25.987 7.877v43.076M36.41 7.877v43.076" />
+                                    <path fill="#70B2A6" d="M47.576 6.418H4.358v8.043h43.218V6.418z" />
+                                    <path fill="#00856F" d="M63.614 46.072c-7.774-11.447-21.876-6.004-29.306-17.805l-5.574 16.784a8.21 8.21 0 00.459 2.481 6.408 6.408 0 001.141 2.022c3.114 2.783 6.904 4.08 10.48 5.305 6.113 1.312 12.997 1.843 17.078 9.156a221.506 221.506 0 015.851-16.685.979.979 0 00.123-.314c.024-.115.03-.236.018-.355a1.072 1.072 0 00-.089-.334.79.79 0 00-.18-.255z" />
+                                    <path fill="#70B3A7" d="M61.328 46.831c-6.956-9.26-19.138-4.575-26.385-13.809l-4.028 12.609c6.203 8.78 16.05 6.079 23.58 11.134 1.052.6 2.163 1.387 2.663 2.804l4.275-11.62c.083-.173.118-.381.099-.586a.996.996 0 00-.204-.532z" />
+                                    <path fill="#DCE9E2" d="M50.261 44.058c-.37-2.837-2.678-3.137-4.397-2.867-2.452.054-4.79 3.407-4.266 6.835 1.282 7.085 10.122 2.576 8.663-3.968z" />
+                                </svg>
+                            </aside>
+                            <header>
+                                <h3 class="primary-text-color">Lower costs</h3>
+                            </header>
+                            <footer><span class="grey-text-color">Proactive intervention reduces the need for costly procedures.</span></footer>
+                        </article>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="on-demand-care">
+        <div class="container">
+            <h2 class="text-center mx-auto pb-5">On-demand, ongoing care that changes lives</h2>
+
+            <div class="embla on-demand-care__carousel">
+                <div class="embla__viewport on-demand-care__viewport">
+                    <div class="embla__container">
+                        <div class="embla__slide">
+                            <div class="embla__slide__inner on-demand-care__inner">
+                                <div class="on-demand-care__info">
+                                    <h2>Shayna was hoping for a perfect pregnancy, but a preeclampsia diagnosis put her at risk of complications.</h2>
+                                    <p>Maven connected her with a high-risk OB-GYN to help navigate her preeclampsia, and a certified doula helped create a birth plan to ease Shayna’s anxiety.</p>
+                                    <p><span class="current-slider px-1"></span>of<span class="total-slides px-1"></span></p>
+                                </div>
+                                <img loading="lazy" decoding="async" class="embla__slide__img" src="img/on-demand-img.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="embla__slide">
+                            <div class="embla__slide__inner on-demand-care__inner">
+                                <div class="on-demand-care__info">
+                                    <h2>Shayna was hoping for a perfect pregnancy, but a preeclampsia diagnosis put her at risk of complications.</h2>
+                                    <p>Maven connected her with a high-risk OB-GYN to help navigate her preeclampsia, and a certified doula helped create a birth plan to ease Shayna’s anxiety.</p>
+                                    <p><span class="current-slider px-1"></span>of<span class="total-slides px-1"></span></p>
+                                </div>
+                                <img loading="lazy" decoding="async" class="embla__slide__img" src="img/on-demand-img.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="embla__slide">
+                            <div class="embla__slide__inner on-demand-care__inner">
+                                <div class="on-demand-care__info">
+                                    <h2>Shayna was hoping for a perfect pregnancy, but a preeclampsia diagnosis put her at risk of complications.</h2>
+                                    <p>Maven connected her with a high-risk OB-GYN to help navigate her preeclampsia, and a certified doula helped create a birth plan to ease Shayna’s anxiety.</p>
+                                    <p><span class="current-slider px-1"></span>of<span class="total-slides px-1"></span></p>
+                                </div>
+                                <img loading="lazy" decoding="async" class="embla__slide__img" src="img/on-demand-img.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="embla__slide">
+                            <div class="embla__slide__inner on-demand-care__inner">
+                                <div class="on-demand-care__info">
+                                    <h2>Shayna was hoping for a perfect pregnancy, but a preeclampsia diagnosis put her at risk of complications.</h2>
+                                    <p>Maven connected her with a high-risk OB-GYN to help navigate her preeclampsia, and a certified doula helped create a birth plan to ease Shayna’s anxiety.</p>
+                                    <p><span class="current-slider px-1"></span>of<span class="total-slides px-1"></span></p>
+                                </div>
+                                <img loading="lazy" decoding="async" class="embla__slide__img" src="img/on-demand-img.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="embla__button-wrapper position-relative">
+                    <button class="embla__button embla__button--prev on-demand-care__button--prev" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13">
+                            <defs />
+                            <g stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" clip-path="url(#clip0)">
+                                <path d="M1.871 6.457h15.416M6.683 12.311L.713 6.457 6.773.603" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <path fill="#fff" d="M0 0h18v13H0z" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+                    <button class="embla__button embla__button--next on-demand-care__button--next" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13">
+                            <defs />
+                            <g stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" clip-path="url(#clip0)">
+                                <path d="M.713 6.457H16.04M11.228.689l6.06 5.854-6.06 5.854" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <path fill="#fff" d="M0 0h18v13H0z" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+
+                    <div class="embla__dots on-demand-care__dots"></div>
+
+                    <script type="text/template" id="embla-dot-template">
+        <button class="embla__dot" type="button"></button>
+      </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="healthcare">
+        <div class="container">
+            <div class="row pb-3">
+                <div class="col-12 col-md-6 d-flex align-items-center">
+                    <div class="healthcare__info">
+                        <h2 class="text-center text-md-start">Lowering healthcare costs by raising the bar</h2>
+                        <p class="grey-text-color text-center text-md-start">Ongoing assessments, proactive check-ins, and human touchpoints drive industry-leading engagement, helping members identify risks early and prevent costly complications.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img loading="lazy" decoding="async" src="img/healthcare-img.png" alt="healthcare image">
+                </div>
+            </div>
+            <div class="row healthcare__facts">
+                <div class="col d-flex flex-column align-items-start">
+                    <p>2:1</p>
+                    <span>clinical return on<br> investment</span>
+                </div>
+                <div class="col d-flex flex-column align-items-start">
+                    <p>4:1</p>
+                    <span>business return on<br> investment</span>
+                </div>
+                <div class="col d-flex flex-column align-items-start">
+                    <p>20%</p>
+                    <span>lower C-section rates</span>
+                </div>
+                <div class="col d-flex flex-column align-items-start">
+                    <p>32%</p>
+                    <span>lower NICU<br> admission rates</span>
+                </div>
+                <div class="col d-flex flex-column align-items-start">
+                    <p>36%</p>
+                    <span>avoid an ER or<br> doctor’s appointment</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="personcare">
+        <div class="container">
+            <div class="mx-auto personcare__title pb-0 pb-lg-5">
+                <h2 class="text-center">Whole-person care that covers the entire family journey</h2>
+                <p class="text-center grey-text-color">Maven offers comprehensive care for everyone planning, starting, and raising a family. We harness the best of technology to deliver a higher quality of care, online and off.</p>
+            </div>
+            <div class="row personcare__pros">
+                <article class="col-lg col-md col-sm-6 col-6 personcare__article personcare__article-1">
+                    <aside class="d-flex flex-column align-items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32">
+                            <defs />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.445" d="M16.396 31.014c8.074 0 14.618-6.544 14.618-14.618 0-8.073-6.544-14.618-14.618-14.618-8.073 0-14.618 6.545-14.618 14.618s6.545 14.618 14.618 14.618zM24.477 12.43a4.06 4.06 0 100 8.122M8.316 20.484a4.06 4.06 0 100-8.122" />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.445" d="M16.396 20.362a4.034 4.034 0 100-8.067 4.034 4.034 0 000 8.067z" />
+                        </svg>
+                        <h4>A dedicated Care Advocate</h4>
+                        <p>for every member</p>
+                    </aside>
+                    <img loading="lazy" decoding="async" src="img/personcare-img-1.jpg" alt="personcare image">
+                </article>
+                <article class="col-lg col-md col-sm-6 col-6 personcare__article personcare__article-2">
+                    <aside class="d-flex flex-column align-items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32">
+                            <defs />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.445" d="M21.282 25.113h5.55V5.96H1.778v19.153h11.816v5.901l7.688-5.901z" />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.445" d="M6.935 5.96V1.778h24.08v18.178h-4.183" />
+                        </svg>
+                        <h4>On-demand appointments</h4>
+                        <p>with specialized providers</p>
+                    </aside>
+                    <img loading="lazy" decoding="async" src="img/personcare-img-2.jpg" alt="personcare image">
+                </article>
+                <article class="col-lg col-md col-sm-6 col-6 personcare__article personcare__article-3 mt-3 mt-md-0">
+                    <aside class="d-flex flex-column align-items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32">
+                            <defs />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.445" d="M1.778 30.167l3.276-1.392c1.672.632 3.422.956 5.184.959l8.35-.279a8.603 8.603 0 003.772-1.028 9.792 9.792 0 003.105-2.653l4.697-6.064c1.19-1.361 1.11-.836-.217-2.243-.502-.54-1.165-.84-1.854-.84-.69 0-1.352.3-1.854.84L22.08 22.2h-.325a2.863 2.863 0 00-.729-1.753c-.425-.461-.986-.724-1.572-.737h-5.671a4.05 4.05 0 01-2.382-.65 4.303 4.303 0 00-3.477-.416c-1.164.36-2.168 1.204-2.817 2.365a3.941 3.941 0 01-1.358 1.41 3.342 3.342 0 01-1.782.493h-.19" />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.445" d="M11.997 23.995h9.76v-1.454a3.053 3.053 0 00-.16-1.04 2.782 2.782 0 00-.496-.893 2.397 2.397 0 00-.757-.607 2.125 2.125 0 00-.902-.229h-5.644a4.06 4.06 0 01-2.396-.65 4.292 4.292 0 00-3.046-.526c-1.269.263-2.397 1.085-3.14 2.29M21.607 2.895c-1.461-.913-3.492 0-4.778 1.965-1.313-1.965-3.343-2.862-4.805-1.965a3.93 3.93 0 00-1.065 1.174 4.517 4.517 0 00-.57 1.56c-.096.56-.09 1.136.017 1.692a4.49 4.49 0 00.603 1.545c1.354 2.63 5.17 5.693 5.888 6.188.704-.557 4.535-3.682 5.807-6.343.267-.462.451-.98.541-1.525a4.745 4.745 0 00-.019-1.646 4.484 4.484 0 00-.576-1.51 3.905 3.905 0 00-1.043-1.135z" />
+                        </svg>
+                        <h4>Proactive interventions</h4>
+                        <p>that lead to effective care</p>
+                    </aside>
+                    <img loading="lazy" decoding="async" src="img/personcare-img-3.jpg" alt="personcare image">
+                </article>
+                <article class="col-lg col-md col-sm-6 col-6 personcare__article personcare__article-4">
+                    <aside class="d-flex flex-column align-items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32">
+                            <defs />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.445" d="M22.406 31.014H1.778V1.778h29.236v20.628M2.468 7.287h27.856" />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.445" d="M31.015 22.406h-8.609v8.608l8.609-8.608zM7.45 14.46h17.893M7.45 19.55h9" />
+                        </svg>
+                        <h4>Personalized content</h4>
+                        <p>curated for each member</p>
+                    </aside>
+                    <img loading="lazy" decoding="async" src="img/personcare-img-4.jpg" alt="personcare image">
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="partnering">
+        <div class="container">
+            <div class="mx-auto partnering__title pb-0 pb-lg-5">
+                <h2 class="text-center">Find out what partnering with Maven can do for you</h2>
+                <p class="text-center grey-text-color">Maven works with you to offer a new kind of care to women and families everywhere.</p>
+            </div>
+            <div class="row partnering__pros">
+                <div class="partnering__pros-card-bg partnering__pros-card-bg-1"></div>
+                <article class="col partnering__pros-card partnering__pros-card-1">
+                    <aside class="d-flex flex-column align-items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 56 44">
+                            <defs />
+                            <path fill="#70B3A7" d="M54.573 7.194H11.11c-.573 0-1.037.469-1.037 1.048v31.177c0 .579.464 1.048 1.037 1.048h43.464c.573 0 1.038-.469 1.038-1.048V8.242c0-.579-.465-1.048-1.038-1.048z" />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width=".889" d="M26.382 6.824c.05-1.169.197-2.33.439-3.474.173-.796.413-1.637 1.037-2.15a4.017 4.017 0 012.384-.823c2.182-.068 4.381 0 6.57 0 1.665 0 2.496 1.694 2.572 2.51l.396 4.246" />
+                            <path fill="#00856F" d="M19.587 43.268h-8.02a3.991 3.991 0 01-2.711-1.065 4.07 4.07 0 01-1.287-2.637L6.117 22.704h18.971l-1.505 16.878a4.068 4.068 0 01-1.29 2.626 3.988 3.988 0 01-2.706 1.06z" />
+                            <path fill="#70B2A6" stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.556" d="M24.499 22.96c0 .823-3.989 1.475-8.902 1.454-1.493 0-2.9-.075-4.135-.189-2.83-.262-4.758-.768-4.754-1.341 0-.824 3.988-1.476 8.901-1.455 4.914.021 8.893.708 8.89 1.53z" />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.778" d="M7.299 27.374c-.145-3.208-5.375-4.151-6.426-.733-1.533 4.995 7.128 5.744 7.394 11.64" />
+                            <path fill="#DCE9E2" d="M40.48 38.2S30.59 27.52 29.895 26.824c-.938 1.075-1.98 2.13-2.919 3.206a.175.175 0 00-.057.115.175.175 0 00.057.098l1.06 1.128 5.221 5.565c1.247 1.329 3.956 4.352 4.01 4.355.053.004 2.28-1.949 3.213-3.09z" />
+                            <path fill="#00856F" d="M25.391 25.271l.804 2.564a35.085 35.085 0 001.803-1.65l-2.607-.913z" />
+                            <path fill="#fff" d="M29.872 26.841l-1.865-.656c-.583.569-1.186 1.12-1.803 1.65l.724 2.31a18.546 18.546 0 002.944-3.304z" />
+                            <path fill="#00856F" d="M40.48 38.2c-1.037 1.048-2.247 1.995-3.214 3.091a22.198 22.198 0 002.67 2.71 54.313 54.313 0 003.21-2.931L40.48 38.2z" />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width=".889" d="M41.025 37.647l-4.526 4.394M11.583 14.477H54.21M28.556 14.778v2.306h7.688v-2.428" />
+                        </svg>
+                        <h4>For Employers</h4>
+                        <p>Give employees the care they need and an inclusive benefit they’ll love.</p>
+                    </aside>
+                </article>
+                <div class="partnering__pros-card-bg partnering__pros-card-bg-2"></div>
+                <article class="col partnering__pros-card partnering__pros-card-2">
+                    <aside class="d-flex flex-column align-items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 56 59">
+                            <defs />
+                            <path fill="#DCE9E1" d="M36.55 1.021H12.047c-2.805 0-5.078 2.267-5.078 5.063v34.94c0 2.796 2.273 5.063 5.078 5.063H36.55c2.804 0 5.077-2.267 5.077-5.063V6.084c0-2.796-2.273-5.063-5.077-5.063z" />
+                            <path stroke="#70B2A6" stroke-linecap="round" stroke-linejoin="round" stroke-width=".867" d="M13.798 10.688h21.2M13.798 18.643h21.2M13.798 26.599h21.2M13.798 34.554h21.2" />
+                            <path fill="#0B8470" d="M33.265 0h-16.1v3.571h16.1V0z" />
+                            <path fill="#70B3A7" d="M54.86 21.612l-22.335-.054-.074 30.002 22.335.055.074-30.003z" />
+                            <path stroke="#00856F" stroke-linecap="round" stroke-linejoin="round" stroke-width=".867" d="M54.86 21.612l-22.335-.054-.018 7.215 22.335.054.018-7.215z" />
+                            <path stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width=".867" d="M50.23 32.86l-.044 13.849" />
+                            <path stroke="#0E8671" stroke-linecap="round" stroke-linejoin="round" stroke-width=".867" d="M37.332 21.785v6.557M43.853 21.725v6.754M50.626 21.725v6.502" />
+                            <path fill="#0B8470" d="M6.718 40.02c-2.502-.328-5.249.935-6.26 3.238-.801 1.828-.458 3.98.436 5.755.894 1.776 2.291 3.245 3.666 4.686 2.117 2.221 7.772 5.3 7.772 5.3s3.991-2.556 5.669-3.98c2.236-1.9 4.543-3.897 5.728-6.58 1.184-2.681.864-6.264-1.512-7.995-1.543-1.122-3.685-1.237-5.463-.542-1.331.537-3.286 3.279-4.477 3.246-1.508-.04-3.54-2.86-5.559-3.127z" />
+                            <path stroke="#0E8671" stroke-linecap="round" stroke-linejoin="round" stroke-width=".867" d="M12.415 45.56s-1.542-5.434 1.968-9.304" />
+                            <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width=".867" d="M21.096 43.437s2.275 5.179-8.746 11.978" />
+                        </svg>
+                        <h4>For Health Plans</h4>
+                        <p>We don’t compete with traditional health plans—we complement them.</p>
+                    </aside>
+                </article>
+                <div class="partnering__pros-card-bg partnering__pros-card-bg-3"></div>
+                <article class="col partnering__pros-card partnering__pros-card-3">
+                    <aside class="d-flex flex-column align-items-center text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 55 68">
+                            <defs />
+                            <path fill="#70B3A7" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.089" d="M6.01 1.618s.822 26.39 1.026 60.092l47.357-1.989s-2.33-34.184-2.33-59.07l-46.054.967z" />
+                            <path fill="#DCE9E2" d="M.526 7.498S-1.12 32.794 1.413 68l47.093-.875S46.41 32.598 46.724 7.918L.526 7.498z" />
+                            <path stroke="#70B3A7" stroke-linecap="round" stroke-linejoin="round" stroke-width=".819" d="M34.386 36.076l-26.959.057M40.398 39.37l-32.91.535M39.184 43.186l-31.634.492M22.871 47.152l-15.259.298M40.582 50.687l-32.91.535M38.362 54.398l-30.628.595M40.144 58.364l-32.347.403M35.345 62.056l-27.489.482" />
+                            <path fill="#008071" d="M7.931 22.972a.576.576 0 00-.587.558.571.571 0 00.56.585 4.055 4.055 0 003.2-1.444 4.672 4.672 0 01-.536-1.193 2.934 2.934 0 01-2.637 1.494zm2.88-3.889c.102.322.15.658.144.995a4.09 4.09 0 001.47 3.254 4.045 4.045 0 005.686-.497 4.69 4.69 0 01-.521-1.206 2.931 2.931 0 01-2.64 1.504 2.94 2.94 0 01-2.56-1.633 3.177 3.177 0 01-.177-.423 3.048 3.048 0 01-.142-.994 4.12 4.12 0 00-.673-2.34 14.811 14.811 0 00-.172-.248 4.053 4.053 0 00-3.12-1.584.57.57 0 00-.582.553.566.566 0 00.554.581 2.943 2.943 0 012.732 2.046v-.008zm11.308-1.695a.569.569 0 00.447-.968.569.569 0 00-.42-.163 4.063 4.063 0 00-3.203 1.434c.235.373.415.779.534 1.204a2.947 2.947 0 012.642-1.492v-.015zm-4.293 1.867c.106.32.155.657.145.995a4.09 4.09 0 00.675 2.339 4.036 4.036 0 003.288 1.842.573.573 0 00.565-.327.563.563 0 00-.31-.766.57.57 0 00-.228-.038 2.956 2.956 0 01-2.731-2.051 2.977 2.977 0 01-.145-.994 4.116 4.116 0 00-.498-2.071c-.053-.09-.107-.184-.162-.269-.055-.084-.115-.164-.177-.249a4.043 4.043 0 00-3.578-1.583 4.052 4.052 0 00-2.746 1.427c.236.373.418.778.539 1.203a2.934 2.934 0 012.638-1.505 2.942 2.942 0 012.561 1.632c.066.134.121.273.167.415" />
+                        </svg>
+                        <h4>For Consultants</h4>
+                        <p>Find out why Maven is the leading family benefit that your clients need.</p>
+                    </aside>
+                </article>
+            </div>
+            <section class="clients-say">
+                <h3 class="text-center lightgreen-text-color">What clients say about Maven</h3>
+
+                <div class="embla clients-say__carousel">
+                    <div class="embla__viewport clients-say__viewport">
+                        <div class="embla__container">
+                            <div class="embla__slide">
+                                <div class="embla__slide__inner clients-say__inner">
+                                    <div class="clients-say__info text-center">
+                                        <blockquote class="primary-text-color mx-auto">“Our employees are so very appreciative of this program. I’ve had people call me and say, “I couldn’t have come back to work without the support through Maven and SoFi.”</blockquote>
+                                        <p class="grey-text-color">Debbie Westover, Senior Benefits Manager at SoFi</p>
+                                        <a href="#" class="primary-text-color pb-2">Read the case study</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="embla__slide">
+                                <div class="embla__slide__inner clients-say__inner">
+                                    <div class="clients-say__info text-center">
+                                        <blockquote class="primary-text-color mx-auto">“Our employees are so very appreciative of this program. I’ve had people call me and say, “I couldn’t have come back to work without the support through Maven and SoFi.”</blockquote>
+                                        <p class="grey-text-color">Debbie Westover, Senior Benefits Manager at SoFi</p>
+                                        <a href="#" class="primary-text-color pb-2">Read the case study</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="embla__slide">
+                                <div class="embla__slide__inner clients-say__inner">
+                                    <div class="clients-say__info text-center">
+                                        <blockquote class="primary-text-color mx-auto">“Our employees are so very appreciative of this program. I’ve had people call me and say, “I couldn’t have come back to work without the support through Maven and SoFi.”</blockquote>
+                                        <p class="grey-text-color">Debbie Westover, Senior Benefits Manager at SoFi</p>
+                                        <a href="#" class="primary-text-color pb-2">Read the case study</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clients-say__button-container d-flex justify-content-between mx-auto mt-3 mt-lg-0">
+                        <button class="embla__button clients-say__button embla__button--prev clients-say__button--prev" type="button">
+                            <svg class="lightgreen-bg-color" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13">
+                                <defs />
+                                <g stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" clip-path="url(#clip0)">
+                                    <path d="M1.871 6.457h15.416M6.683 12.311L.713 6.457 6.773.603" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <path fill="#fff" d="M0 0h18v13H0z" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
+                        <button class="embla__button clients-say__button embla__button--next clients-say__button--next" type="button">
+                            <svg class="lightgreen-bg-color" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 13">
+                                <defs />
+                                <g stroke="#0D8570" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" clip-path="url(#clip0)">
+                                    <path d="M.713 6.457H16.04M11.228.689l6.06 5.854-6.06 5.854" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <path fill="#fff" d="M0 0h18v13H0z" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="featured-in">
+        <div class="container">
+            <h3 class="text-center grey-text-color mb-4">Featured in</h3>
+            <div class="row featured-in__sponsors align-items-center mx-3 mx-md-0 pb-3 pb-md-0">
+                <div class="col-6 col-lg-6 col-xl d-flex justify-content-center featured-in__sponsors-img-wrapper pb-3 pb-xl-0">
+                    <img loading="lazy" decoding="async" class="featured-in__sponsors-img featured-in__sponsors-img-1" src="img/sponsor-img-1.svg" alt="sponsor image" width="200" height="30">
+                </div>
+                <div class="col-6 col-lg-6 col-xl d-flex justify-content-center featured-in__sponsors-img-wrapper pb-3 pb-xl-0">
+                    <img loading="lazy" decoding="async" class="featured-in__sponsors-img featured-in__sponsors-img-2" src="img/sponsor-img-2.svg" alt="sponsor image" width="69" height="45">
+                </div>
+                <div class="col-6 col-lg-6 col-xl d-flex justify-content-center featured-in__sponsors-img-wrapper pb-3 pb-xl-0">
+                    <img loading="lazy" decoding="async" class="featured-in__sponsors-img featured-in__sponsors-img-3" src="img/sponsor-img-3.svg" alt="sponsor image" width="200" height="30">
+                </div>
+                <div class="col-6 col-lg-6 col-xl d-flex justify-content-center featured-in__sponsors-img-wrapper pb-3 pb-xl-0">
+                    <img loading="lazy" decoding="async" class="featured-in__sponsors-img featured-in__sponsors-img-4" src="img/sponsor-img-4.svg" alt="sponsor image" width="200" height="30">
+                </div>
+                <div class="col-6 col-lg-6 col-xl d-flex justify-content-center featured-in__sponsors-img-wrapper pb-3 pb-xl-0">
+                    <img loading="lazy" decoding="async" class="featured-in__sponsors-img featured-in__sponsors-img-5" src="img/sponsor-img-5.svg" alt="sponsor image" width="200" height="30">
+                </div>
+            </div>
+    </section>
+    <section class="maven-foundation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-md-6 col-12 maven-foundation__img position-relative pe-lg-5">
+                    <img loading="lazy" decoding="async" src="img/maven-foundation-img.jpg" alt="maven foundation image" width="590" height="500">
+                </div>
+                <div class="col-lg col-md-6 col-12 maven-foundation__info pt-2 pt-lg-0">
+                    <h2>The Maven Foundation</h2>
+                    <p class="grey-text-color">We believe that all women and families deserve access to great healthcare. Established alongside Maven in 2015, the Maven Foundation is supported by a donor-advised fund, and partners with nonprofit organizations like The Children’s Village to offer free in-person and virtual care to NYC women and families in need.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="awards">
+        <div class="container">
+            <h3 class="text-center grey-text-color mb-4">Our Awards</h3>
+            <div class="row awards__prizes align-items-center mx-3 mx-md-0 pb-3 pb-md-0">
+                <div class="col col-6 col-lg-6 col-xl d-flex justify-content-center awards__prizes-img-wrapper pb-3 pb-xl-0">
+                    <img loading="lazy" decoding="async" class="awards__prizes-img awards__prizes-img-1" src="img/prizes-img-1.png" alt="prizes image" width="200" height="80">
+                </div>
+                <div class="col col-6 col-lg-6 col-xl d-flex justify-content-center awards__prizes-img-wrapper pb-3 pb-xl-0">
+                    <img loading=" lazy" decoding="async" class="awards__prizes-img awards__prizes-img-2" src="img/prizes-img-2.png" alt="prizes image" width="200" height="80">
+                </div>
+                <div class="col col-6 col-lg-6 col-xl d-flex justify-content-center awards__prizes-img-wrapper pb-3 pb-xl-0">
+                    <img loading=" lazy" decoding="async" class="awards__prizes-img awards__prizes-img-3" src="img/prizes-img-3.png" alt="prizes image" width="200" height="80">
+                </div>
+                <div class="col col-6 col-lg-6 col-xl d-flex justify-content-center awards__prizes-img-wrapper pb-3 pb-xl-0">
+                    <img loading=" lazy" decoding="async" class="awards__prizes-img awards__prizes-img-4" src="img/prizes-img-4.png" alt="prizes image" width="200" height="80">
+                </div>
+                <div class="col col-6 col-lg-6 col-xl d-flex justify-content-center awards__prizes-img-wrapper pb-3 pb-xl-0">
+                    <img loading=" lazy" decoding="async" class="awards__prizes-img awards__prizes-img-5" src="img/prizes-img-5.png" alt="prizes image" width="200" height="80">
+                </div>
+            </div>
+    </section>
+    <section class="get-started">
+        <div class="get-started__info d-flex flex-column">
+            <h2>Ready to get started with Maven?</h2>
+            <p class="grey-text-color">Tell us which describes you, and we’ll get in touch with next steps.</p>
+            <input class="mb-2 grey-text-color" type="text" name="" id="" disabled placeholder="Which best describes you">
+            <a href="#" class="btn btn--green py-3">Get Started</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg col-6 text-center text-lg-start pb-2 pb-lg-0">
+                        <h3>For Business</h3>
+                        <ul>
+                            <li><a href="#">Employers</a></li>
+                            <li><a href="#">Health Plans</a></li>
+                            <li><a href="#">Consultants</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg col-6 text-center text-lg-start pb-2 pb-lg-0">
+                        <h3>Join Maven</h3>
+                        <ul>
+                            <li><a href="#">Individuals</a></li>
+                            <li><a href="#">Become a Maven Provider</a></li>
+                            <li><a href="#">Join Our Community</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg col-6 text-center text-lg-start pb-2 pb-lg-0">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Resource Center</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">COVID-19</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg col-6 text-center text-lg-start pb-2 pb-lg-0">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg col-12 text-center text-lg-start pb-2 pb-lg-0">
+                        <div class="footer__social-media">
+                            <h3>Find us on</h3>
+                            <div class="footer__social-media-icons pb-4">
+                                <div class="row">
+                                    <a class="col" href="#" class="footer__social-media-ico">
+                                        <img loading="lazy" decoding="async" src="img/in-ico.svg" alt="linked in icon" width="32" height="31">
+                                    </a>
+                                    <a class="col" href="#" class="footer__social-media-ico">
+                                        <img loading="lazy" decoding="async" src="img/fb-ico.svg" alt="facebook icon" width="32" height="31">
+                                    </a>
+                                    <a class="col" href="#" class="footer__social-media-ico">
+                                        <img loading="lazy" decoding="async" src="img/inst-ico.svg" alt="instagram icon" width="32" height="31">
+                                    </a>
+                                    <a class="col" href="#" class="footer__social-media-ico">
+                                        <img loading="lazy" decoding="async" src="img/tw-ico.svg" alt="twitter icon" width="32" height="31">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row flex-lg-column justify-content-between footer__download-app">
+                                <a class="mb-2" href="#">
+                                    <img loading="lazy" decoding="async" src="img/app-store-img.jpg" alt="app store image" width="139" height="39">
+                                </a>
+                                <a href="#">
+                                    <img loading="lazy" decoding="async" src="img/google-play-img.jpg" alt="google play image" width="139" height="39">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="row">
+                    <div class="col">
+                        <p class="footer__copyright">© 2021 Maven, Inc. All rights reserved.</p>
+                    </div>
+                    <div class="col text-end">
+                        <a href="#" class="footer__terms me-2">Terms</a>
+                        <a href="#" class="footer__policy">Privacy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+
+    <script src="https://unpkg.com/embla-carousel@latest/embla-carousel.umd.js"></script>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
