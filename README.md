@@ -4,6 +4,8 @@ project Maven
 <br>
 project description: next generation of care for women and families
 <br>
+project link: https://BlackFxTalon-Maven.netlify.app
+<br>
 Project stack - HTML,CSS,JS(modules,es6+),Bootstrap 5(beta), embla carousel, BEM.
 
 Давно не верстал, так что решил попробовать сверстать что нибудь простенькое в качестве ленда.
