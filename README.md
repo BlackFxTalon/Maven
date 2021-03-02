@@ -15,4 +15,4 @@ Ru - Давно не верстал, так что решил попробова
 
 En - I haven't done layout for a long time, so I decided to try to make up something simple as a landing page.
 I tried bootstrap 5 for myself here in beta, which is no different from the previous version in terms of CSS components.
-I didn't really follow the BEM methodology, as a result, the project mixed like BEM, bootstrap classes, my utility CSS classes (which work great in conjunction with CSS vars),which I also tested for myself. Pictures, svg are optimized (lazy loading, reducing the size of svgs). Adaptive, cross-browser compatibility, semantics layout are there. I tested modules in js (export, import). Project deployed on netlify.
+I didn't really follow the BEM methodology, as a result, the project mixed like BEM, bootstrap classes, my utility CSS classes (which work great in conjunction with CSS vars),which I also tested for myself. Pictures, svg are optimized (lazy loading, reducing the size of svgs). Also there are micro css animations. Adaptive, cross-browser compatibility, semantics layout are there. I tested modules in js (export, import). Project deployed on netlify.
