@@ -519,7 +519,7 @@ button:hover {
 }
 @media (max-width: 1200px) {
     .featured-in__sponsors-img-wrapper:not(:last-child) {
-        padding-right: 0;
+        padding-right: 10px;
     }
 }
 .featured-in__sponsors-img {
