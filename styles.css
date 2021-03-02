@@ -104,7 +104,7 @@ button:hover {
     z-index: 0;
 }
 .cta__img img {
-    max-width: 634px;
+    width: 634px;
     max-height: 577px;
 }
 .cta__img::before {
@@ -523,7 +523,7 @@ button:hover {
     }
 }
 .featured-in__sponsors-img {
-    max-width: 200px;
+    width: 200px;
     max-height: 90px;
     transition: transform 0.3s ease-in-out;
 }
@@ -531,7 +531,7 @@ button:hover {
     transform: scale(1.2);
 }
 .featured-in__sponsors-img-2 {
-    max-width: 69px;
+    width: 69px;
     max-height: 45px;
 }
 /* maven-foundation */
